@@ -1,0 +1,13 @@
+material benim_markerim_material
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture benim_markerim.png
+      }
+    }
+  }
+}
