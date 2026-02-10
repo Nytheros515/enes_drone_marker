@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="benim_markerim">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>1 1</size>
+          </plane>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://benim_markerim/materials/scripts</uri>
+            <uri>model://benim_markerim/materials/textures</uri>
+            <name>benim_markerim_material</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
